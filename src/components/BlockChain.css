@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.coin {
+  max-width: 70vw;
+  margin: auto;
+  margin: 4rem auto;
+}
+table thead {
+  background-color: rgba(55, 171, 29, 0.79);
+  color: #fff;
+  font-size: 1.5rem;
+}
+table tbody tr td {
+  padding: 1rem;
+}
+table tbody tr:nth-child(even) {
+  background-color: rgba(186, 186, 205, 0.386);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.buttons button {
+  background-color: rgba(55, 171, 29, 0.79);
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  color: #fff;
+  font-size: 1rem;
+  transition: opacity 0.2s ease-in-out;
+}
+.buttons button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.coin h1 {
+  height: 3rem;
+  /* background-color: rgba(162, 131, 84, 0.507); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0.65rem;
+  /* position: fixed;
+    top: 1.85rem;
+    right: 1rem; */
+  /* margin: 0 8rem .5rem 6rem; */
+  width: 15vw;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  text-shadow: 0 0 3px #ff0000;
+}
+.coin article {
+  height: 3rem;
+  /* background-color: rgba(162, 131, 84, 0.507); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0.65rem;
+  position: fixed;
+  top: 1.85rem;
+  right: 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 8px #ff0000;
+}
