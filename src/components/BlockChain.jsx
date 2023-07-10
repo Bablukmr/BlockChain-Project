@@ -7,7 +7,7 @@ export default function BlockChain() {
   const [coin, setCoin] = useState([]);
   useEffect(() => {
     coindata();
-    const interval = setInterval(coindata, 1000000);
+    const interval = setInterval(coindata, 10000);
     return () => clearInterval(interval);
   }, [more]);
   console.log(coin);
