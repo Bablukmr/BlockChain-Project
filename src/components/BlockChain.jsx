@@ -10,7 +10,7 @@ export default function BlockChain() {
     const interval = setInterval(coindata, 10000);
     return () => clearInterval(interval);
   }, [more]);
-  console.log(coin);
+  // console.log(coin);
 
   const coindata = async () => {
     const response = await axios.get(
